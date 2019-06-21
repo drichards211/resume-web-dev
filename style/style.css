@@ -4,7 +4,7 @@
 
 body {
   -webkit-font-smoothing: antialiased;
-  font-family:'Droid Sans', 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-top: 20px;
   margin-bottom: 50px;
   height: 100%;
@@ -13,11 +13,24 @@ body {
 
 header {
   margin-bottom: 20px;
-  background-color: #000000;
+  /* background-color: #000000; */
   padding-top: 1px;
   padding-bottom: 25px;
+  padding-left: 20px;
   /* width: 100%; */
   /* height: 180px; */
+}
+
+header p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  color: rgba(0, 174, 239, 1);
+  margin-top: 14px;
+}
+
+.top-row {
+  padding-left: 1.04166666%;
 }
 
 main {
@@ -32,24 +45,22 @@ section {
 h1 {
   padding-top: 15px;
   margin-top: 0;
-  margin-bottom: 12px;
-  text-align: center;
-  color: #b70000;
-  text-shadow: 1px 1px 2px #b1b1b1d9;
-  font-family: Poppins;
-  /* font-weight: 900; */
-  font-size: 53px;
-  letter-spacing: 9px;
+  margin-bottom: 0px;
+  color: #000000;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 55pt;
+  letter-spacing: -.5pt;
 }
 
 h2 {
   margin-top: 0;
-  margin-bottom: 0;
-  color: #b60000;
+  margin-bottom: 1px;
+  color: rgba(0, 174, 239, 1);
   /* text-shadow: 1px 1px 1px #b60000; */
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1.4em;
-  letter-spacing: 2px;
+  letter-spacing: -.5px;
 }
 
 h3 {
@@ -77,12 +88,16 @@ h5 {
 ul {
   margin-top: 0;
   margin-bottom: 10px;
+  padding-inline-start: 20px;
 }
 li {
   color: #464646;
   margin-bottom: 2px;
 }
 
+.tech {
+
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -96,7 +111,7 @@ a:hover {
 .hr-section {
   margin-top: 0;
   margin-bottom: 5px;
-  border-top-color: #2671d1;
+  color: rgba(0, 174, 239, 1);
 }
 
 .content {
@@ -109,6 +124,11 @@ a:hover {
   display: inline-block;
 }
 
+.lines {
+  border-style: inset;
+  border-width: 1px;
+}
+
 .name {
   display: inline-block;
 }
@@ -119,10 +139,22 @@ a:hover {
 
 .position {
   display: inline-block;
-  font-size: 0.95em;
-  font-style: italic;
+  font-size: .95em;
   font-weight: 400;
 }
+
+.tech {
+  font-style: italic;
+}
+
+.position-tech {
+  display: inline-block;
+  font-size: 1.05em;
+  font-weight: 600;
+  color:  #000000;
+}
+
+
 
 .dates {
   width: 25%;
@@ -165,11 +197,11 @@ a:hover > .fa {
 }
 
 .linkedin {
-    color: #0077b5;
+  color: rgba(0, 174, 239, 1);
 }
 
 .github, .gh {
-    color: #28a745;
+  color: rgb(123, 239, 132);
 }
 
 .phone, .dt {
@@ -198,7 +230,7 @@ a:hover > .fa {
 /* CSS GRID =============================== */
 .row {
   max-width: 1000px;
-  min-width: 340px;
+  min-width: 320px;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
@@ -212,7 +244,7 @@ a:hover > .fa {
   float: left;
   padding-left: 1.04166666%;
   padding-right: 1.04166666%;
-  width: 100%;
+  /* width: 100%; */
   margin-bottom: 20px;
 }
 .col-12 {
