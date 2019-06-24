@@ -241,36 +241,24 @@ a:hover > .fa {
   clear: both;
   display: table;
 }
-.col-3, .col-4, .col-6 {
+.col-3, .col-4, .col-6, .col-12 {
   float: left;
   padding-left: 3%;
   padding-right: 3%;
   margin-bottom: 20px;
 }
-.header-container {
-  float: left;
-  margin-bottom: 20px;
-  width: 100%;
-}
-.name-container, .contact-container {
-  float: left;
+.col-6 {
   width: 50%;
-  padding-left: 3%;
-  padding-right: 3%;
-  margin-bottom: 20px;
 }
 .col-12 {
-  float: left;
   width: 100%;
-  margin-bottom: 20px;
+}
+.no-margin {
+  margin: 0px;
 }
 .no-padding {
   padding-left: 0%;
   padding-right: 0%;
-}
-.col-6 {
-  float: left;
-  width: 50%;
 }
 
 /* SITE-WIDE VIEWPORT RESPONSE ========================== */
