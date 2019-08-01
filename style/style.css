@@ -203,10 +203,13 @@ a:hover {
   margin: 0px auto;
 }
 .bot-row-upper {
-  margin-top: 31px;
+  margin-top: 24px;
+}
+.bot-row-upper h4 {
+  margin-top: 20px;
 }
 
-.fa {
+.fa, .fas, .fab {
   text-align: center;
   display: inline-block;
   margin-left: 19px;
@@ -217,11 +220,26 @@ a:hover {
   font-size: 2.8em !important;
 }
 
+.pdf {
+  color: #a6b2c2
+}
 .envelope {
-  color: rgba(0, 174, 239, 1);
+  color: rgb(115, 122, 132);
 }
 
+/* .pdf {
+  color: rgba(0, 174, 239, 1);
+} */
+
 a:hover > .fa {
+  color: #A0A0A9;
+  cursor: pointer;
+}
+a:hover > .fas {
+  color: #A0A0A9;
+  cursor: pointer;
+}
+a:hover > .fab {
   color: #A0A0A9;
   cursor: pointer;
 }
@@ -235,7 +253,7 @@ a:hover > .blue {
 }
 
 .github, .gh {
-  color: rgba(0, 174, 239, 1);
+  color: #59c7ef;
 }
 
 .phone, .dt {
@@ -243,7 +261,8 @@ a:hover > .blue {
 }
 
 .briefcase {
-  color: #60748F;
+  color: rgb(132, 210, 239);
+  /* color: #60748F; */
 }
 
 .angellist {
@@ -297,7 +316,9 @@ a:hover > .blue {
 /* SITE-WIDE VIEWPORT RESPONSE ========================== */
 @media only screen and (max-width: 1114px) {
   .bot-row-upper {
-    margin-top: 119px;
+    /* margin-top: 86px; */
+    margin-top: 24px;
+    /* margin-top: 119px; */
   }
 }
 @media only screen and (max-width: 640px) {
@@ -305,7 +326,8 @@ a:hover > .blue {
     width: 100%;
   }
   .bot-row-upper {
-    margin-top: 1px;
+    margin-top: -12px;
+    /* margin-top: 1px; */
     margin-bottom: 9px;
   }
 }
