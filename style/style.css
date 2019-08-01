@@ -208,7 +208,9 @@ a:hover {
 .bot-row-upper h4 {
   margin-top: 20px;
 }
-
+.bot-row h4 {
+  margin-top: 20px;
+}
 .fa, .fas, .fab {
   text-align: center;
   display: inline-block;
