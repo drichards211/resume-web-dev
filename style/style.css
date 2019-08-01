@@ -85,7 +85,7 @@ ul {
   padding-inline-start: 20px;
 }
 li {
-  color: #464646;
+  color: #000000;
   margin-bottom: 2px;
 }
 
@@ -235,11 +235,11 @@ a:hover > .blue {
 }
 
 .github, .gh {
-  color: #A0A0A9;
+  color: rgba(0, 174, 239, 1);
 }
 
 .phone, .dt {
-  color: #A0A0A9;
+  color: rgba(0, 174, 239, 1);
 }
 
 .briefcase {
