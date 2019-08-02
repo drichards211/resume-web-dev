@@ -205,10 +205,10 @@ a:hover {
 .bot-row-upper {
   margin-top: 24px;
 }
-.bot-row-upper h4 {
+.bot-row-upper span {
   margin-top: 20px;
 }
-.bot-row h4 {
+.bot-row span {
   margin-top: 20px;
 }
 .fa, .fas, .fab {
