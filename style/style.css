@@ -101,6 +101,10 @@ a:hover {
   color: #A0A0A9;
 }
 
+.do-not-break {
+  white-space: nowrap;
+}
+
 .hr-section {
   margin-top: 0;
   margin-bottom: 5px;
