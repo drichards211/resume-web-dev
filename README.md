@@ -3,7 +3,7 @@
 
 ![Screenshot of Resume](images/resume-github-banner.jpg)
 
-> Live page here: (https://drichards211.github.io/sttng-quiz-app/)
+> Live page here: (https://drichards211.github.io/resume-web-dev/)
 
 This is my Web Developer Resume, built in plain HTML with zero added frameworks. 
 Fully responsive on all viewports; the multi-column format automatically resizes for mobile and tablet devices.
